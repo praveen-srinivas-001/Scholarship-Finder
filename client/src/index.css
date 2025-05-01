@@ -1,0 +1,105 @@
+/* client/src/index.css */
+
+/* Custom styles for the Scholarship Finder application */
+
+/* Global styles */
+body {
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Scholarship card styling */
+.scholarship-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scholarship-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Custom button styling */
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-primary:hover {
+  background-color: #003d7a;
+  border-color: #003d7a;
+}
+
+.btn-outline-primary {
+  color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Form styling */
+.form-control:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.25rem rgba(0, 86, 179, 0.25);
+}
+
+/* Badge styling */
+.badge {
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 0.35em 0.65em;
+}
+
+/* Home page hero section */
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 4rem 0;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+/* Search bar styling */
+.search-bar {
+  border-radius: 20px;
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile form */
+.profile-form-section {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* Login/Register cards */
+.auth-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+  margin-top: 2rem;
+  border-top: 1px solid #eaeaea;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
